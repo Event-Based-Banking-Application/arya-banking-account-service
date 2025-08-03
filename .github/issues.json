@@ -1,0 +1,52 @@
+[
+  {
+    "service": "Account Service",
+    "issues": [
+      {
+        "task": "Open default savings account",
+        "description": "Automatically open default savings account after user registration completes.",
+        "labels": [
+          "account"
+        ]
+      },
+      {
+        "task": "Link account to user ID",
+        "description": "Associate created accounts with user IDs in MongoDB.",
+        "labels": [
+          "account",
+          "database"
+        ]
+      },
+      {
+        "task": "Generate account number",
+        "description": "Generate unique, strategy-based account numbers.",
+        "labels": [
+          "account"
+        ]
+      },
+      {
+        "task": "View accounts for a user",
+        "description": "Provide API endpoints to fetch user-linked accounts.",
+        "labels": [
+          "account",
+          "api"
+        ]
+      },
+      {
+        "task": "Close account",
+        "description": "Soft-delete functionality to close accounts without data loss.",
+        "labels": [
+          "account"
+        ]
+      },
+      {
+        "task": "Emit AccountCreated event",
+        "description": "Notify other services of account creation via Kafka.",
+        "labels": [
+          "account",
+          "event"
+        ]
+      }
+    ]
+  }
+]
